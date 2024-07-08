@@ -1,0 +1,1148 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* common class start  */
+     /* section padding start  */
+     .sec_com_pd{
+        padding: 50px 0 0px;
+
+    }
+    /* section padding end */
+    .c_btn{
+        padding: 15px 0px;
+    }
+    .c_btn a, .submit_btn{
+        font-size: 14px !important;
+        padding: 5px 30px !important;
+    }
+     /* section title start  */
+     .sec_title{
+        padding: 0px 0 20px;
+    }
+    .sec_title h2 {
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding-bottom: 0px;
+    }
+    .sec_title .com_un{
+        height: 2px;
+    }
+    .sec_title .underline1{
+        width: 150px;
+        margin-bottom: 5px;
+    }
+    .sec_title .underline2{
+        width: 80px;
+    }
+    /* section title end */
+    /* common class end */
+    /* top header start  */
+    hr{
+        display: none;
+    }
+    .top_header{
+        display: none;
+    }
+    .top_p p{
+        font-size: 14px;
+    }
+    .top_p p span{
+        font-size: 20px;
+    }
+    
+    /* top header end */
+      /* header start  */
+      .c-btn{
+
+      }
+      .c-btn a{
+          font-size: 16px;
+      }
+      /* header start  */
+    .header_area{
+        padding: 0;
+        position: relative;
+    }
+    /* menu item start  */
+    .main_menu ul li a {
+        font-size: 14px;
+        padding: 14px 14px 0px 10px !important;
+    }
+    .main_menu{
+        /* position: absolute; */
+        padding-top: 30px;
+    }
+    /* togglar btn  */
+    .tog-btn {
+        margin: 25PX 0;
+        padding: 2px;
+        position: absolute;
+        right: 20px;
+        top: -22px;
+    }
+    .tog-btn .nav_icon{
+        font-size: 12px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        box-shadow: none;
+      }
+      /* logo  */
+      .img a img {
+        padding: 10px 0px 10px 6px;
+    }
+      /* header end  */
+      /* hero slider start  */
+   .text_item {
+    padding: 50px 5px 20px;
+}
+.text_item h2 {
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.text_item .kebab{
+    letter-spacing: 10px;
+}
+.text_item .menulist_btn{
+    padding-top: 20px !important;
+    float: none;
+    display: flex;
+    justify-content: center;
+}
+.text_item .menulist_btn a{
+    
+}
+.indicator_btn {
+    width: 10px !important;
+    height: 10px !important;
+}
+/* animetion img and text start  */
+.img_item{
+    padding: 25px 0px 50px;
+}
+.animet_img .spicy {  
+    font-size: 20px;
+    left: 100px;
+    bottom: 300px;
+    letter-spacing: 15px;
+}
+.animet_img .chili {
+    display: none;
+}
+.animet_img .cut_chili {
+    display: none;
+}
+.animet_img .chili-hot {
+    display: none;
+}
+.animet_img .onion{
+   display: none;
+}
+.animet_img .tomito1 {
+    display: none;
+}
+.animet_img .tomito3 {
+    width: 250px;
+    height: 180px;
+    left: 20px;
+    top: 40px;
+    opacity: 60% !important;
+}
+/* hero slider end */
+/* speshal menu section start  */
+.slider1 {
+    padding: 20px 0 10px;
+}
+.price_stiker{
+    top: 162px;
+}
+.slide_lernmor {
+    padding: 30px 0 !important;
+    
+}
+.slide_lernmor a {
+    padding: 5px 30px;
+}
+.price_stiker h2 {
+    font-size: 22px;
+    padding: 10px 20px;
+}
+.slider_text_img .menu_info h2 {
+    font-size: 22px;
+    padding: 50px 0 0;
+}
+.slider_text_img .menu_info p {
+    padding: 15px 25px 0;
+}
+
+/* .price_stiker h2 {
+font-size: 16px;
+}
+.slider_text_img .menu_info h2 {
+    font-size: 16px;
+    padding: 40px 0 0;
+}
+.slider_text_img .menu_info p {
+    font-size: 12px;
+    padding: 10px 25px 0;
+}
+.slide_lernmor a {
+    padding: 5px 30px;
+} */
+/* speshal menu section end */
+/* offer section start  */
+.offer .bg {
+    padding: 20px;
+}
+.offer_img .img1 {
+    width: 100px;
+    height: 100px;
+    left: 110px;
+    top: 0px;
+}
+.offer_img .img2 {
+    width: 70px;
+    height: 70px;
+    left: 10px;
+    top: 5px;
+}
+.offer_img .img3 {
+    width: 100px;
+    height: 100px;
+    left: 30px;
+    bottom: 0px;
+
+}
+.offer_img .offer_stiker {
+    left: 170px;
+    top: 85px;
+    min-width: 100px;
+    min-height: 100px;
+}
+.offer_img .offer_stiker h2 {
+    font-size: 20px;
+    top: 20px;
+}
+.offer_text h3 {
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 0 15px;
+    margin: 0;
+}
+.offer_text p {
+    font-size: 14px;
+    padding: 0 0 10px;
+    margin: 0;
+    line-height: 25px;
+    text-align: center;
+}
+.offer_btn {
+    float: none;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+.offer_img .img-bg {
+    width: 280px;
+    height: 430px;
+    left: -70px;
+    bottom: -200px;
+    opacity: 50%;
+}
+.offer_underline .offer_underline2 {
+    margin: auto;
+}
+/* offer section end */
+/* food gallary start  */
+.food_gallary{
+    padding-bottom: 50px;
+ }
+.hover_bg {
+    width: 100%;
+    padding: 20px 0 30px;
+    top: 310px;
+}
+.hover_bg h3{
+    font-size: 20px;
+}
+.hover_bg h2{
+    font-size: 20px;
+}
+.bar2 {
+    width: 116px;
+    bottom: 26px;
+    left: -22px;
+}
+/* food gallary ene */
+
+/* book section start  */
+.book {
+    padding: 60px 0 50px;
+}
+.book_heding h2 {
+    font-size: 20px;
+}
+.book_p {
+    padding: 20px 0 15px;
+}
+.book_label label {
+    font-size: 16px;
+    padding: 10px 0 10px;
+}
+.book_input input {
+    padding: 0px 10px;
+}
+.book_input .select{
+    padding: 0px 10px;
+}
+::-ms-input-placeholder {
+    font-size: 14px;
+  }
+::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+::-moz-input-placeholder {
+    font-size: 14px;
+  }
+::placeholder {
+    font-size: 14px;
+  }
+.book_form{
+    padding: 0 40px;
+}
+.book_btn {
+  padding: 20px 0;
+}
+.left_side {
+    padding: 0px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+.right_side {
+    border-radius: 10px 10px 0px 0px;
+}
+.opening_time table {
+    display: flex;
+    justify-content: center;
+
+}
+.opening_time table tr td {
+    font-size: 14px;
+    padding: 10px 10px;
+}
+.opening_time h2 {
+    font-size: 20px;
+    padding: 10px 20px 10px;
+}
+/* book section end */
+/* claient review start  */
+.cus_slider .quotetion i {
+    font-size: 20px;
+    padding: 20px 15px 15px;
+}
+.cus_slider h2 {
+    font-size: 20px;
+}
+.cus_slider p {
+    padding: 10px 10px 10px;
+}
+.cus_slider span i {
+    padding: 0 0 10px;
+}
+.cus_slider .cus_img {
+    width: 120px;
+}
+.cus_slider h3 {
+    font-size: 18px;
+    padding: 10px 10px 20px;
+}
+/* claient review end */
+
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+     /* common class start  */
+      /* section padding start  */
+    .sec_com_pd{
+        padding: 60px 0 0px;
+    }
+    /* section padding end */
+     .c_btn{
+        padding: 15px 0px;
+    }
+    .c_btn a, .submit_btn{
+        font-size: 14px !important;
+        padding: 5px 30px !important;
+    }
+    /* section title start  */
+    .sec_title{
+        /* padding: 0px 0 30px; */
+    }
+    .sec_title h2 {
+        font-size: 22px;
+        letter-spacing: 3px;
+        padding-bottom: 8px;
+    }
+    .sec_title .com_un{
+        height: 2px;
+    }
+    .sec_title .underline1{
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    .sec_title .underline2{
+        width: 100px;
+    }
+    /* section title end */
+    /* common class end */
+
+    /* top header start  */
+    .top_p {
+        padding: 5px 0;
+    }
+    .top_p p{
+        font-size: 10px;
+    }
+    .top_p p span{
+        font-size: 16px;
+    }
+    
+    .top_btn {
+        padding: 5px 0 !important;
+    }
+    
+    /* top header end */
+      /* header start  */
+    .header_area{
+        padding: 0;
+        position: relative;
+    }
+    /* menu item start  */
+    .main_menu ul li a {
+        font-size: 14px;
+        padding: 20px 22px 0px 10px !important;
+    }
+    .main_menu{
+        /* position: absolute; */
+        padding-top: 30px;
+    }
+    /* togglar btn  */
+    .tog-btn {
+        margin: 30PX 0;
+        padding: 2px;
+        position: absolute;
+        right: 60px;
+        top: -22px;
+    }
+    .tog-btn .nav_icon{
+        font-size: 14px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        box-shadow: none;
+      }
+   
+      /* logo  */
+      .img a img{
+        padding: 10px 0;
+    }
+      /* header end  */
+    /* hero slider start  */
+   .text_item {
+    padding: 60px 30px 25px;
+}
+.text_item h2 {
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.text_item .kebab{
+    letter-spacing: 10px;
+}
+.text_item .menulist_btn{
+    padding-top: 20px !important;
+    float: none;
+    display: flex;
+    justify-content: center;
+}
+.text_item .menulist_btn a{
+    
+}
+.indicator_btn {
+    width: 10px !important;
+    height: 10px !important;
+}
+/* animetion img and text start  */
+.img_item{
+    padding: 25px 0px 50px;
+}
+.animet_img .spicy {  
+    font-size: 25px;
+    left: 185px;
+    bottom: 460px;
+}
+.animet_img .chili {
+    width: 130px;
+    height: 80px;
+    left: 0;
+}
+.animet_img .cut_chili {
+    width: 115px;
+    height: 204px;
+    left: 0px;
+    top: 290px;
+    rotate: 280deg !important;
+}
+.animet_img .chili-hot {
+    width: 150px;
+    height: 110px;
+    top: 355px;
+    display: none;
+}
+.animet_img .onion{
+   display: none;
+}
+.animet_img .tomito1 {
+    width: 160px;
+    height: 160px;
+    left: 445px;
+    top: 280px;
+    opacity: 60% !important;
+}
+.animet_img .tomito3 {
+    width: 250px !important;
+    height: 180px !important;
+    left: 160px;
+    top: 40px;
+    opacity: 60% !important;
+}
+/* hero slider end */
+/* speshal menu section start  */
+.slider1 {
+    padding: 30px 0 10px;
+}
+.price_stiker{
+    top: 136px;
+}
+.price_stiker h2 {
+font-size: 18px;
+}
+.slider_text_img .menu_info h2 {
+    font-size: 18px;
+    padding: 40px 0 0;
+}
+.slider_text_img .menu_info p {
+    font-size: 14px;
+    padding: 15px 25px 0;
+}
+.slide_lernmor {
+    padding: 20px 0 30px 0;
+}
+.slide_lernmor a {
+    padding: 5px 30px;
+}
+/* speshal menu section end */
+/* offer section start  */
+.offer .bg {
+    padding: 80px;
+}
+.offer_img .img1 {
+    width: 150px;
+    height: 150px;
+    left: 180px;
+    top: 30px;
+}
+.offer_img .img2 {
+    width: 100px;
+    height: 100px;
+    left: 40px;
+    top: 50px;
+}
+.offer_img .img3 {
+    width: 150px;
+    height: 150px;
+    left: 60px;
+    bottom: -90px;
+
+}
+.offer_img .offer_stiker {
+    left: -54px;
+    top: 45px;
+    min-width: 100px;
+    min-height: 100px;
+}
+.offer_img .offer_stiker h2 {
+    font-size: 20px;
+    top: 20px;
+}
+.offer_text h3 {
+    text-align: center;
+    font-size: 30px;
+    padding: 80px 0 15px;
+    margin: 0;
+}
+.offer_text p {
+    padding: 0 0 15px;
+    margin: 0;
+    line-height: 25px;
+    text-align: center;
+}
+.offer_btn {
+    float: none;
+    padding: 15px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.offer_img .img-bg {
+    width: 318px;
+    height: 350px;
+    position: absolute;
+    left: -100px;
+    bottom: -220px;
+    opacity: 50%;
+}
+.offer_underline .offer_underline2 {
+    margin: auto;
+}
+/* offer section end */
+/* food gallary start  */
+.food_gallary{
+    padding-bottom: 60px;
+ }
+.hover_bg {
+    width: 100%;
+    padding: 15px 0 25px;
+    top: 288px;
+}
+.hover_bg h2 {
+    font-size: 20px;
+}
+.hover_bg h3 {
+    font-size: 20px;
+}
+.bar2 {
+    width: 108px;
+    bottom: 25px;
+    left: -26px;
+}
+/* food gallary ene */
+    /* book section start  */
+    .book {
+        padding: 60px 0 50px;
+    }
+    .book_heding h2 {
+        font-size: 20px;
+    }
+    .book_p {
+        padding: 20px 0 15px;
+    }
+    .book_label label {
+        font-size: 18px;
+        padding: 15px 0 10px;
+    }
+    .book_input input {
+        padding: 10px 15px;
+    }
+    .book_input .select{
+        padding: 10px 15px;
+    }
+    .book_form{
+        padding: 0 40px;
+    }
+    .book_btn {
+      padding: 20px 0;
+    }
+    .left_side {
+        padding: 20px 30px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .right_side {
+        border-radius: 10px 10px 0px 0px;
+    }
+    .opening_time table {
+        display: flex;
+        justify-content: center;
+
+    }
+    .opening_time table tr td {
+        font-size: 18px;
+        padding: 20px 15px;
+    }
+    .opening_time h2 {
+        font-size: 25px;
+        padding: 20px 20px 20px;
+        text-align: center;
+    }
+    /* book section end */
+   /* claient review start  */
+.cus_slider .quotetion i {
+    font-size: 20px;
+    padding: 20px 15px 15px;
+}
+.cus_slider h2 {
+    font-size: 20px;
+}
+.cus_slider p {
+    padding: 10px 10px 10px;
+}
+.cus_slider span i {
+    padding: 0 0 10px;
+}
+.cus_slider .cus_img {
+    width: 120px;
+}
+.cus_slider h3 {
+    font-size: 18px;
+    padding: 10px 10px 20px;
+}
+/* claient review end */
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* common class start  */
+    /* section padding start  */
+    .sec_com_pd{
+        padding: 80px 0 0px;
+    }
+    /* section padding end */
+    
+    .c_btn{
+        padding: 20px 0px;
+    }
+    .c_btn a, .submit_btn{
+        font-size: 18px !important;
+    }
+    /* section title start  */
+    .sec_title{
+        /* padding: 0px 0 40px; */
+    }
+    .sec_title h2 {
+        font-size: 24px;
+    }
+    .sec_title .underline1{
+        margin-bottom: 15px;
+    }
+    /* section title end */
+    /* common class end */
+    /* top header start  */
+    .top_p p{
+        font-size: 14px;
+    }
+    .top_p p span{
+        font-size: 20px;
+    }
+    /* top header end */
+
+    /* header start  */
+    .header_area{
+        padding: 0;
+        position: relative;
+    }
+    /* menu item start  */
+    .main_menu ul li a {
+        font-size: 16px;
+        padding: 30px 22px 0px 10px !important;
+    }
+    .main_menu{
+        /* position: absolute; */
+        padding-top: 40px;
+    }
+    /* togglar btn  */
+    .tog-btn {
+        margin: 40PX 0;
+        padding: 4px;
+        position: absolute;
+        /* left: 0; */
+        right: 60px;
+        top: -22px;
+    }
+    .tog_btn span{
+        font-size: 14px;
+    }
+    /* header end  */
+   /* hero slider start  */
+   .text_item {
+    padding: 80px 0px;
+}
+.text_item h2 {
+    font-size: 50px;
+    line-height: 80px; 
+}
+.text_item .kebab{
+    letter-spacing: 10px;
+}
+.text_item .menulist_btn{
+    padding-bottom: 80px !important;
+}
+.text_item .menulist_btn a{
+    
+}
+.indicator_btn {
+    width: 12px !important;
+    height: 12px !important;
+}
+/* animetion img and text start  */
+.img_item{
+    padding: 80px 0px;
+}
+.animet_img .spicy {  
+    font-size: 30px;
+    left: 280px;
+    bottom: 40px;
+}
+.animet_img .chili {
+    width: 150px;
+    height: 90px;
+    left: 0px;
+    opacity: 60% !important;
+}
+.animet_img .cut_chili {
+    width: 140px;
+    height: 240px;
+    left: 750px;
+    top: 400px;
+}
+.animet_img .chili-hot {
+    width: 150px;
+    height: 110px;
+    top: 355px;
+}
+.animet_img .onion{
+   display: none;
+}
+.animet_img .tomito1 {
+    width: 160px;
+    height: 160px;
+    left: 610px;
+    top: 0px;;
+    opacity: 60% !important;
+}
+.animet_img .tomito3 {
+    width: 300px;
+    height: 215px;
+    left: 0px;
+    top: 75px;
+    opacity: 60% !important;
+}
+/* hero slider end */
+/* speshal menu section start  */
+.slider1 {
+    padding: 40px 0 15px;
+}
+    .price_stiker{
+        top: 115px;
+   }
+   .price_stiker h2 {
+    font-size: 22px;
+    padding: 10px 20px;
+}
+.slider_text_img .menu_info h2 {
+    font-size: 22px;
+    padding: 50px 0 0;
+}
+.slider_text_img .menu_info p {
+    padding: 15px 25px 0;
+}
+.slide_lernmor {
+    padding: 20px 0 30px 0 !important;
+}
+.slide_lernmor a {
+    padding: 5px 30px;
+}
+/* speshal menu section end */
+/* offer section start  */
+.offer .bg {
+    padding: 60px;
+}
+.offer_img {
+    padding: 325px 0 0;
+}
+.offer_img .img1 {
+    left: 315px;
+    top: 70px;
+}
+.offer_img .img2 {
+    left: 70px;
+    top: 40px;
+}
+.offer_img .img3 { 
+    left: 140px;
+    bottom: -40px;
+}
+.offer_img .offer_stiker {
+    left: 200px;
+}
+.offer_underline .offer_underline2{
+    margin: auto;
+}
+.offer_text {
+    padding: 0 80px;
+    text-align: center;
+}
+.offer_btn {
+    float: none;
+}
+.offer_img .img-bg {
+    width: 318px;
+    height: 328px;
+    left: 140px;
+    bottom: -211px;
+}
+/* offer section end */
+  /* food gallary start  */
+  .food_gallary{
+    padding-bottom: 80px;
+ }
+  .hover_bg {
+    width: 100%;
+    padding: 20px 0 30px;
+    top: 345px;
+}
+.bar2 {
+    width: 140px;
+    bottom: 36px;
+    left: -40px;
+}
+/* food gallary ene */
+ /* book section start  */
+ .book {
+    padding: 70px 0 60px;
+}
+.bottom_padding label {
+    padding: 20px 0 15px;
+}
+.book_p {
+    padding: 25px 0 20px;
+}
+.book_label label { 
+    font-size: 18px;
+}
+.book_btn {
+    float: left;
+    padding: 30px 0 0 !important;
+}
+.opening_time h2 {
+    font-size: 30px;
+    padding: 30px 10px 10px;
+}
+.opening_time table tr td {
+    font-size: 18px;
+    padding: 30px 15px;
+}
+.left_side {
+    padding-top: 25px;
+}
+/* book section end */
+/* claient review start  */
+.cus_slider .quotetion i {
+    font-size: 25px;
+    padding: 30px 15px 15px;
+}
+.cus_slider h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.cus_slider p {
+    padding: 15px 15px 15px;
+}
+.cus_slider span i {
+    font-size: 16px;
+    padding: 0 0 15px;
+}
+.cus_slider .cus_img {
+    width: 130px;
+}
+.cus_slider h3 {
+    padding: 15px 15px 30px;
+}
+/* claient review end */
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* common css start  */
+    .sec_com_pd{
+        padding: 100px 0 0px;
+    }
+    /* common css end */
+    /* top header start  */
+    .top_p p{
+        font-size: 14px;
+    }
+    .top_p p span{
+        font-size: 20px;
+    }
+    /* top header end */
+    /* header start  */
+    .main_menu ul li a {
+        font-size: 18px;
+        padding-right: 14px !important;
+    }
+    .c-btn a {
+        font-size: 18px;
+    }
+    /* header end */
+    /* hero slider start  */
+    .text_item {
+        padding: 100px 0px;
+    }
+    .text_item h2 {
+        font-size: 80px;
+        line-height: 110px;  
+    }
+    /* animetion img and text start  */
+    .img_item{
+        padding: 100px 0px;
+    }
+    .animet_img .spicy {    
+        left: 370px;
+        bottom: 70px;
+    }
+    .animet_img .cut_chili {
+        width: 140px;
+        height: 240px;
+        left: 750px;
+        top: 400px;
+    }
+    .animet_img .onion{
+       display: none;
+    }
+    .animet_img .chili-hot {
+        width: 200px;
+        height: 180px;
+        top: 430px;
+    }
+    /* hero slider end */
+    /* speshal menu section start  */
+   .price_stiker{
+        top: 165px;
+   }
+   .slider1{
+    padding: 50px 0 90px;
+   }
+   .slider_text_img .menu_info h2{
+    font-size: 25px;
+}
+    /* speshal menu section end */
+    /* offer section start  */
+    .offer_img .img1 {
+        left: 130px;
+        top: 215px;
+    }
+    .offer_img .img2 {
+        left: 0px;
+        top: 140px;
+    }    
+    .offer_img .img3 {  
+        left: 0px;
+        bottom: -320px;
+    }
+    .offer_img .offer_stiker {     
+        left: 104px;
+        top: 113px;
+    }
+    .offer_img .img-bg {
+        width: 366px;
+        height: 350px;
+        position: absolute;
+        left: -123px;
+        bottom: -33px;
+        opacity: 50%;
+        /* z-index: 100; */
+    }
+    /* offer section end */
+    /* food gallary start  */
+    .hover_bg {
+        padding: 20px 0 30px;
+        top: 305px;
+    }
+    .bar2 {
+        width: 140px;
+        bottom: 38px;
+        left: -40px;
+    }
+    /* food gallary ene */
+    /* book section start  */
+    .book {
+        padding: 100px 0 90px;
+    }
+    .book_p {
+        padding: 25px 0 20px;
+        text-align: center;
+        margin: 0;
+    }
+    .center_img {
+        top: 115px;
+        left: 305px;
+    }
+    .center_img img{
+        width: 300px;
+    }
+    .book_input input {
+        padding: 10px 20px;
+    }
+    .opening_time table tr td {
+        font-size: 18px;
+        padding: 20px 5px;
+        color: #fff;
+    }
+    /* book section end */
+ }
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px){ 
+
+}
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) { 
+    /* hero slider start  */
+    .animet_img .tomito1 {
+        left: 630px;
+    }
+    .animet_img .onion {
+        left: 1160px;
+    }
+    .animet_img .chili-hot {
+        top: 560px;
+    }
+    .animet_img .cut_chili {     
+        left: 1140px;
+        top: 500px;
+    }
+    /* hero slider end */
+
+    /* speshal menu section start  */
+   .price_stiker{
+    top: 245px;
+   }
+   .slide_lernmor {
+    padding: 40px 0 40px 0;
+}
+.slider_text_img .menu_info p {
+    padding: 40px 30px 0;
+}
+    /* speshal menu section end */
+    /* food gallary start  */
+    .hover_bg {
+        width: 100%;
+        padding: 30px 20px;
+        top: 410px;
+    }
+    .bar2 {
+        width: 163px;
+    }
+    .bar1 {
+        width: 365px;
+    }
+    /* food gallary end */
+    /* book table section start  */
+    .center_img {
+        left: 460px;
+    }
+    /* book table section end */
+
+}

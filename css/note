@@ -1,0 +1,33 @@
+red = #059212
+orange = #06D001
+aus = #7F6666 #666666
+
+<-----common pading ------>
+  sec_com_pd
+<-----common pading ------>
+
+<-----common title----->
+  <div class="sec_title text-center">
+    <h2>Our Speshal Menu</h2>
+    <div class="underline">
+      <div class="underline1 com_un"></div>
+      <div class="underline2 com_un"></div>
+    </div>
+  </div>
+<-----common title----->
+<---common button ------>
+  <div class="c_btn">
+    <a class="" href="#">BOOK TABLE</a>
+  </div>
+<---common button ------>
+
+  aos 
+  data-aos="zoom-in" data-aos-easing="linear"
+              data-aos-duration="500" data-aos="rotate"
+
+
+
+
+              food gallary 
+              opening hours 
+              contact 
