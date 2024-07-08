@@ -436,13 +436,11 @@ hr{
     margin: 30px 0 0px;
     position: relative;
     overflow:  hidden !important;
-    /* border: 1px solid; */
     transition: .5s;
     border-radius: 10px;
-    
 }
 .single_img{
-    
+    position: relative;
 }
 .img_gallary{
     transition: .5s;
@@ -451,16 +449,6 @@ hr{
     opacity: 80%;
    transform: scale(1.1);
 }
-/* .hover_style{
-    width: 100%;
-    height: 100% !important;
-    position: absolute;
-    top: 130px;
-    background: transparent;
-    cursor: pointer;
-    transition: transform ease 0.5s;
-    
-} */
 .hover_bg{
     padding: 20px 20px 30px;
     position: absolute;
@@ -473,8 +461,7 @@ hr{
 .single_gallary_item:hover .hover_bg{
     transform: translate(0, -147px);
 }
-.style_bar{
-    
+.style_bar{  
 }
 .c_bar{
     height: 4px;
@@ -502,14 +489,6 @@ hr{
     background-color: #059212;
 	background-position: left;
 }
-
-
-/* .single_gallary_item .hover_style:hover .hover_bg 
- {
-   
-} */
-
-
 .hover_bg h3{
     font-size: 30px;
     font-weight: 700;
@@ -556,14 +535,12 @@ hr{
     color: #06D001;
 }
 .bottom_padding label{
-    /* padding: 40px 0 15px;  */
 } 
 .book_input input{
     width: 100%;
     padding: 15px 30px;
     border-radius: 10px;
     border: 1px solid;
-
 }
 .book_input .select{
     width: 100%;
@@ -584,12 +561,7 @@ hr{
    
   }
 .book_input input:focus {
-    /* outline:none; */
 }
-/* input:focus-visible {
-    outline: 1px solid #000;
-    border-radius: 3px;
-  } */
 .book_form{
     position: relative;
 }
@@ -612,8 +584,6 @@ hr{
     0% { transform: translateY(0); }
     100% { transform: translateY(-20px); }
 }
-
-
 .center_img img{
     width: 350px;
     border-radius: 10px;
@@ -622,7 +592,6 @@ hr{
 .book_btn{
     float: left;
     padding: 30px 0 0;
-   
 }
 .left_side{
     padding: 40px 30px;
@@ -679,12 +648,9 @@ hr{
 .cus_slider .cus_img {
     width: 150px;
     margin: auto;
-
 }
 .cus_slider .cus_img img{
-    /* width: 150px; */
   border-radius: 50%;
-   
 }
 .cus_slider h3{
     font-size: 20px;
@@ -693,7 +659,6 @@ hr{
     margin: 0;
 }
 /* testimonial section end */
-
 /* contact section start  */
 .main_wrap{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -701,7 +666,6 @@ hr{
 .form-group{
     margin-bottom: 24px;
 }
-
 .submit_btn:hover{
     color: #fff;
 	background-color: #059212;
@@ -720,5 +684,4 @@ hr{
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
 }
-
 /* contact section end */
