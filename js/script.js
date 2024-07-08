@@ -21,8 +21,8 @@ $(document).ready(function(){
     $('.lazy').slick({
         lazyLode: 'ondemand',
         slidesToShow: 3,
-        slideToScroll: 0,
-        autoplay: false,
+        slideToScroll: 1,
+        autoplay: true,
         autoplaySpeed: 2000,
         speed: 2000, 
         prevArrow: false,
