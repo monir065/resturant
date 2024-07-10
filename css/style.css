@@ -26,13 +26,14 @@ body{
     font-size: 20px;
     padding: 10px 45px;
     text-decoration: none;
-    color: #000;
-    border-radius: 25px;
+    color: #059212;
+    border: 0.5px solid #000;
+    border-radius: 10px;
     -webkit-transition: .5s ease-out;
     -moz-transition: .5s ease-out;
     -o-transition: .5s ease-out;
     transition: .5s ease-out;
-	background: linear-gradient( 160deg, #06D001 50%, #059212 50%) left;
+	background: linear-gradient( 160deg,#fff 50%, #059212 50%) left;
 	background-size: 300%;
 }
 .c_btn a:hover{
@@ -44,6 +45,18 @@ body{
 /* section padding start  */
 .sec_com_pd{
     padding: 120px 0 0px;
+}
+.tit_com_pd{
+    padding: 0 0 50px !important;
+}
+.no_pdb{
+    padding-bottom: 0 !important;
+}
+.no_pdt{
+    padding-top: 0 !important;
+}
+.no_mt{
+    margin-top: 0 !important;
 }
 /* section padding start  */
 /* section title start  */
@@ -61,7 +74,7 @@ body{
 .sec_title .com_un{
     height: 3px;
     margin: auto;
-    background-color: #06D001;
+    background-color: #059212;
 }
 .sec_title .underline{
     display: inline-block;
@@ -151,7 +164,7 @@ hr{
     transition: ease .33s;
 }
 .main_menu ul li a:hover{
-    color: #06D001;
+    color: #059212;
 }
 /* toggler btn  */
 .tog-btn{
@@ -168,7 +181,7 @@ hr{
     border-radius: 20px !important;  
 }
 .carousel-indicators .active{
-    background-color: #06D001 !important;
+    background-color: #059212 !important;
 }
 .car_style{
 	width: 100%;
@@ -322,7 +335,7 @@ hr{
 /* spechal menu scetion end */
 /* offer section start  */
 .offer{
-    /* background-color: #000; */
+    padding-top: 0;
 }
 .offer .bg{
     padding: 100px;
@@ -377,7 +390,7 @@ hr{
     min-height: 150px;
     background-color: #fff;
     opacity: 85% !important;
-    border: 4px dotted #06D001;
+    border: 4px dotted #059212;
     border-radius: 150px;
     z-index: 100;
     
@@ -390,7 +403,7 @@ hr{
     top: 30px;
     left: 0px;
     /* rotate: 30deg !important; */
-    color: #06D001;
+    color: #059212;
 }
 
 .offer_text{}
@@ -468,7 +481,7 @@ hr{
     /* background-color: #059212; */
     transition: .5s ease-out;
     transition-delay: .3s;
-    background: linear-gradient( 90deg, #06D001 50%, #000 50%) right;
+    background: linear-gradient( 90deg, #059212 50%, #000 50%) right;
 	background-size: 200%;
 }
 .bar1 {
@@ -532,7 +545,7 @@ hr{
     padding: 15px 0 15px;
 }
 .book_label label span{
-    color: #06D001;
+    color: #059212;
 }
 .bottom_padding label{
 } 
@@ -608,6 +621,7 @@ hr{
     font-weight: 700;
     padding: 40px 20px 20px;
     margin: 0;
+    text-align: center;
     color: #fff;
 }
 .opening_time table{}
@@ -643,7 +657,7 @@ hr{
 .cus_slider span i{
     font-size: 20px;
     padding: 0 0 20px;
-    color: #06D001;
+    color: #059212;
 }
 .cus_slider .cus_img {
     width: 150px;
@@ -675,7 +689,7 @@ hr{
 .info-wrap{
     margin: -20px 0;
     border-radius: 10px;
-    background-color: #06D001;
+    background-color: #059212;
 }
 .info_icon{
     width: 50px;
@@ -685,3 +699,247 @@ hr{
     background: rgba(255, 255, 255, 0.1);
 }
 /* contact section end */
+/* mit our chefs start  */
+.our_chefs{
+    padding-bottom: 100px;
+    background-color: #000;
+}
+.chefs_box_img{
+    display: flex;
+    justify-content: center;
+}
+.chefs_box{
+    width: 350px;
+    height: 350px;
+    border: 1.5px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    transition: .33s;
+    background: linear-gradient( 160deg, #fff 50%, #fff 50%) center/0% 100% no-repeat;
+
+}
+.chefs_wrap .chefs_hover:hover .chefs_box{
+    background-size: 100% 100%;
+}
+.chefs_img{
+    width: 300px;
+    height: 300px;
+    background-color: #059212;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 0px;
+}
+.chefs_img img{
+    border-radius: 50%;
+}
+.chefs_info{
+    margin-top: 50px;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+   
+}
+.info_top{ 
+    border-radius: 10px 10px 0px 0px;
+}
+.info_bottom{
+    border-radius: 0px 0px 10px 10px;
+}
+.chefs_info h2{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 15px 0px 10px;
+    margin: 0;
+}
+.chefs_info p{
+    font-size: 20px;
+    padding: 0 0 15px;
+    margin: 0;
+}
+/* mit our chefs end */
+/* counter me section start  */
+.counter{
+    padding-bottom: 100px;
+}
+.count_me1{
+    width: 200px;
+    height: 200px;
+    padding: 60px 20px;
+    margin: auto;
+    /* background-color: #000; */
+    color: #059212;
+    border: 2px solid #059212;
+    border-radius: 50%;
+    text-align: center;
+}
+.count_me1 h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding: 15px 0 15px;
+    margin: 0;
+}
+.count_info p{
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 30px 0 0;
+    margin: 0;
+    text-align: center;
+}
+/* counter me section end */
+/* footer section start  */
+footer{
+    background-color: #000000;
+}
+.footer_top{
+    padding: 100px 0 90px;
+}
+.ftr_col1 h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    color: #ffffff;
+}
+.ftr_col1 p{
+    margin: 0;
+    color: #ffffff;
+    padding: 25px 0 20px;
+}
+.socail_icon ul{
+    float: left;
+    list-style-type: none;
+    padding: 0;
+
+}
+.socail_icon li{
+   float: left;
+    padding: 0 12px;
+    
+}
+.socail_icon li a{
+    float: left;
+    cursor: pointer;
+}
+.socail_icon li a i{
+    font-size: 25px;
+    color:#FFC61A;
+    transition: .33s;
+}
+.socail_icon li a i:hover{
+    transform: scale(.8);
+}
+.left_icon{
+    padding-left: 0 !important;
+}
+.menu_list2{
+    padding-left: 60px !important;
+}
+.menu_list h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    color: #ffffff;
+}
+.menu_list ul{
+    margin: 0;
+    padding: 25px 0 20px;
+    list-style: none;
+}
+.menu_list ul li {
+    padding: 8px 0 0;
+}
+.menu_list ul li:first-child {
+    padding: 0px 0 0 !important;
+}
+.menu_list ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 7px;
+    transition: .33s;
+}
+.menu_list ul li a:hover{
+    color: #FFC61A;
+}
+.contact_list h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    color: #ffffff;
+}
+.contact_p{
+    margin: 0;
+    color: #ffffff;
+    padding: 25px 0 0px;
+}
+.p2{
+    padding: 8px 0 0px;
+    color: #ffffff;
+}
+.p3{
+    margin: 0;
+    color: #ffffff;
+}
+.contact_list p span{
+    padding-right: 10px;
+}
+.contact_list p span i{
+color: #FFC61A;
+}
+.devider{
+    width: 100%;
+    height: 0.5px;
+    background-color: #ffffff;
+}
+.copy p{
+    font-size: 14px;
+    margin: 0;
+    padding: 20px 0;
+    color: #ffffff;
+}
+.copy p a{
+    text-decoration: none;
+}
+/* news form  */
+.newsform{
+    position: relative;
+}
+.newsform input{
+    padding: 5px 30px 10px 10px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid !important;
+    border-radius: 0;
+    color: #fff;
+}
+.form-group:focus{}
+.news_control:focus{
+    color: #fff;
+    background-color: transparent;
+    box-shadow: none;
+   
+}
+.news_control::placeholder{
+    font-size: 16px;
+     color: #fff;
+}
+.submit_icon{
+    position: absolute;
+    top: 6px;
+    left: 235px;
+}
+.submit_icon button{
+    background: none;
+    border: none;
+}
+.submit_icon button i{
+    font-size: 20px;
+    color: #fff;
+}
+.check_box{}
+.check_box input{}
+.check_box label{
+    color: #fff;
+}
+/* footer section end */
