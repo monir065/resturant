@@ -3,8 +3,11 @@
     /* common class start  */
      /* section padding start  */
      .sec_com_pd{
-        padding: 50px 0 0px;
+        padding: 50px 0 50px;
 
+    }
+    .tit_com_pd{
+        padding: 0 0 20px !important;
     }
     /* section padding end */
     .c_btn{
@@ -145,6 +148,12 @@
 }
 /* hero slider end */
 /* speshal menu section start  */
+.single_gallary_item {
+    margin: 20px 0 0px;
+}
+.single_gallary_item1{
+    margin: 0 !important;
+}
 .slider1 {
     padding: 20px 0 10px;
 }
@@ -172,6 +181,9 @@
 }
 /* speshal menu section end */
 /* offer section start  */
+.offer{
+    padding: 0 0 50px !important;
+}
 .offer .bg {
     padding: 20px;
 }
@@ -236,7 +248,7 @@
 /* offer section end */
 /* food gallary start  */
 .food_gallary{
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
  }
  .col_scrin{
     width: 100%;
@@ -250,7 +262,7 @@
 .col_scrin h3{
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     margin: 0;
     text-align: center;
     color: #fff;
@@ -258,7 +270,7 @@
 .col_scrin h2{
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     padding-top: 5px;
     margin: 0;
     text-align: center;
@@ -276,7 +288,7 @@
 
 /* book section start  */
 .book {
-    padding: 60px 0 50px;
+    /* padding: 60px 0 50px; */
 }
 .book_heding h2 {
     font-size: 20px;
@@ -355,6 +367,152 @@
     padding: 10px 10px 20px;
 }
 /* claient review end */
+ /* mit our chefs start  */
+ .chefs_img {
+    width: 200px;
+    height: 200px;
+}
+.chefs_box {
+    width: 250px;
+    height: 250px;
+}
+.chefs_info h2 {
+    font-size: 20px;
+    padding: 10px 0px 5px;
+}
+.chefs_info p {
+    font-size: 16px;
+    padding: 0 0 10px;
+    
+}
+.chefs_hover{
+    margin-bottom: 10px;
+}
+/* mit our chefs end */
+  /* counter me section start  */
+  .count_me1 {
+    width: 150px;
+    height: 150px;
+    padding: 40px 15px;
+}
+.count_me1 h2 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.count_info p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    padding: 15px 0 20px;
+}
+
+/* counter me section end */
+/* footer section stert  */
+.footer_top {
+    padding: 30px 0 20px;
+}
+.ftr_col1 h3 { 
+    font-size: 20px;
+}
+.ftr_col1{
+    text-align: center;
+}
+.ftr_col1 p {
+    font-size: 13px;
+    padding: 10px 40px 12px
+}
+.socail_icon ul {
+    padding: 0 ;
+    margin: 0px 0px 0 70px;
+}
+.socail_icon li {
+    padding: 0px 7px;
+}
+.socail_icon li a i {
+    font-size: 20px;
+}
+
+.menu_list2 {
+    padding-left: 0px !important;
+}
+.menu_list h3 {   
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 0 8px;
+}
+.menu_list ul {
+    padding: 0;
+    text-align: center;
+}
+.menu_list ul li {
+    padding:0;
+}
+.menu_list ul li a {
+    font-size: 13px;
+}
+
+.contact_list h3 {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 0 0px;
+}
+.contact_p {
+    font-size: 13px;
+    padding: 10px 0 0px;
+    text-align: center;
+}
+.p2 {
+    font-size: 13px;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+.contact_list p span {
+    padding-right: 5px;
+}
+.p2 span{
+    padding-right: 5px;
+}
+.p3 {
+    font-size: 13px;
+    text-align: center;
+    padding: 0 40px;
+}
+.copy p {
+    font-size: 5px;
+    padding: 10px 0;
+}
+
+.newsletter{
+    padding: 15px 0 0;
+}
+.newsletter_form{
+    padding: 0px 60px !important;
+}
+.newsform {
+    margin-bottom: 10px;
+}
+.newsform input {
+    font-size: 13px;
+    padding: 5px 30px 5px 10px;
+}
+.news_control::placeholder{
+    font-size: 13px;
+}
+.submit_icon {
+    top: 3px;
+    left: 140px;
+}
+.submit_icon button i{
+    font-size: 13px;
+}
+.check_box {
+    margin-bottom: 0;
+}
+.check_box label {
+    font-size: 13px;
+}
+/* footer section end */
 
  }
 
@@ -363,7 +521,10 @@
      /* common class start  */
       /* section padding start  */
     .sec_com_pd{
-        padding: 60px 0 0px;
+        padding: 60px 0 60px;
+    }
+    .tit_com_pd{
+        padding: 0 0 30px !important;
     }
     /* section padding end */
      .c_btn{
@@ -543,8 +704,11 @@ font-size: 18px;
 }
 /* speshal menu section end */
 /* offer section start  */
+.offer{
+    padding: 0 0 60px !important;
+}
 .offer .bg {
-    padding: 80px;
+    padding: 60px;
 }
 .offer_img .img1 {
     width: 150px;
@@ -595,10 +759,10 @@ font-size: 18px;
 }
 .offer_img .img-bg {
     width: 318px;
-    height: 350px;
+    height: 330px;
     position: absolute;
     left: -100px;
-    bottom: -220px;
+    bottom: -75px;
     opacity: 50%;
 }
 .offer_underline .offer_underline2 {
@@ -696,6 +860,147 @@ font-size: 18px;
     padding: 10px 10px 20px;
 }
 /* claient review end */
+ /* mit our chefs start  */
+ .chefs_img {
+   
+}
+.chefs_box {
+   
+}
+.chefs_info h2 {
+    font-size: 25px;
+}
+.chefs_info p {
+    font-size: 18px;
+}
+.chefs_hover{
+    margin-bottom: 30px;
+}
+/* mit our chefs end */
+  /* counter me section start  */
+  .count_me1 {
+    width: 150px;
+    height: 150px;
+    padding: 40px 15px;
+}
+.count_me1 h2 {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.count_info p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    padding: 15px 0 20px;
+}
+
+/* counter me section end */
+/* footer section stert  */
+.footer_top {
+    padding: 60px 0 50px;
+}
+.ftr_col1 h3 { 
+    font-size: 22px;
+}
+.ftr_col1{
+    text-align: center;
+}
+.ftr_col1 p {
+    font-size: 14px;
+    padding: 10px 40px 12px;
+}
+.socail_icon ul {
+    padding: 0 ;
+    margin: 0px 0px 0 180px;
+}
+.socail_icon li {
+    padding: 0px 7px;
+}
+.socail_icon li a i {
+    font-size: 20px;
+}
+
+.menu_list2 {
+    padding-left: 0px !important;
+}
+.menu_list h3 {   
+    font-size: 22px;
+    text-align: center;     
+    padding: 25px 0 10px; 
+}
+.menu_list ul {
+    padding: 0;
+    text-align: center;
+}
+.menu_list ul li {
+    padding:0;
+}
+.menu_list ul li a {
+    font-size: 14px;
+}
+
+.contact_list h3 {
+    font-size: 22px;
+    text-align: center;
+    padding: 25px 0 0px;
+}
+.contact_p {
+    font-size: 14px;
+    padding: 10px 0 0px;
+    text-align: center;
+}
+.p2 {
+    font-size: 14px;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+.contact_list p span {
+    padding-right: 5px;
+}
+.p2 span{
+    padding-right: 5px;
+}
+.p3 {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 40px;
+}
+.copy p {
+    font-size: 10px;
+    padding: 15px 0;
+}
+.newsletter{
+    padding: 25px 0 0;
+}
+.newsletter_form{
+    padding: 0px 50px !important;
+}
+.newsform {
+    margin-bottom: 15px;
+}
+.newsform input {
+    font-size: 14px;
+    padding: 5px 30px 5px 10px;
+}
+.news_control::placeholder{
+    font-size: 14px;
+}
+.submit_icon {
+    top: 3px;
+    left: 374px;
+}
+.submit_icon button i{
+    font-size: 14px;
+}
+.check_box {
+    margin-bottom: 0;
+}
+.check_box label {
+    font-size: 14px;
+}
+/* footer section end */
 
  }
 
@@ -704,7 +1009,7 @@ font-size: 18px;
     /* common class start  */
     /* section padding start  */
     .sec_com_pd{
-        padding: 80px 0 0px;
+        padding: 80px 0 80px;
     }
     /* section padding end */
     
@@ -853,8 +1158,11 @@ font-size: 18px;
 }
 /* speshal menu section end */
 /* offer section start  */
+.offer{
+    padding:0 !important;
+}
 .offer .bg {
-    padding: 60px;
+    padding: 80px;
 }
 .offer_img {
     padding: 325px 0 0;
@@ -886,14 +1194,15 @@ font-size: 18px;
 }
 .offer_img .img-bg {
     width: 318px;
-    height: 328px;
+    height: 300px;
     left: 140px;
-    bottom: -211px;
+    bottom: -40px;
+    opacity: 30%;
 }
 /* offer section end */
   /* food gallary start  */
   .food_gallary{
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
  }
   .hover_bg {
     width: 100%;
@@ -908,7 +1217,7 @@ font-size: 18px;
 /* food gallary ene */
  /* book section start  */
  .book {
-    padding: 70px 0 60px;
+    /* padding: 70px 0 60px; */
 }
 .bottom_padding label {
     padding: 20px 0 15px;
@@ -936,6 +1245,9 @@ font-size: 18px;
 }
 /* book section end */
 /* claient review start  */
+.cus_slider {
+    min-height: 590px;
+}
 .cus_slider .quotetion i {
     font-size: 25px;
     padding: 30px 15px 15px;
@@ -958,6 +1270,129 @@ font-size: 18px;
     padding: 15px 15px 30px;
 }
 /* claient review end */
+    /* mit our chefs start  */
+    .chefs_img {
+        width: 250px;
+        height: 250px;
+    }
+    .chefs_box {
+        width: 300px;
+        height: 300px;
+    }
+    .chefs_info h2 {
+        font-size: 25px;
+    }
+    .chefs_info p {
+        font-size: 18px;
+    }
+    .chefs_hover{
+        margin-bottom: 30px;
+    }
+    /* mit our chefs end */
+    /* counter me section start  */
+    .count_me1 {
+        width: 150px;
+        height: 150px;
+        padding: 40px 15px;
+    }
+    .count_me1 h2 {
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .count_info p {
+        font-size: 16px;
+        letter-spacing: 0px;
+        padding: 25px 0 0;
+    }
+    /* counter me section end */
+    /* footer section stert  */
+    .footer_top {
+        padding: 70px 0 60px;
+    }
+    .ftr_col1 h3 { 
+        font-size: 30px;
+        text-align: center;
+    }
+    .ftr_col1 p {
+        font-size: 15px;
+        padding: 20px 0 15px;
+    }
+    .socail_icon li {
+        padding: 0px 7px;
+    }
+    .socail_icon li a i {
+        font-size: 20px;
+    }
+    .menu_list2 {
+        padding-left: 0px !important;
+    }
+    .menu_list h3 {   
+        font-size: 28px;
+        text-align: center;      
+    }
+    .menu_list ul li {
+        padding:0;
+    }
+    .menu_list ul li a {
+        font-size: 15px;
+    }
+
+    .contact_list h3 {
+        font-size: 28px;
+        /* text-align: center; */
+
+    }
+    .contact_p {
+        font-size: 15px;
+        padding: 20px 0 0px;
+    }
+    .p2 {
+        font-size: 15px;
+        margin: 0;
+        padding: 5px 0;
+        color: #ffffff;
+    }
+    .contact_list p span {
+        padding-right: 5px;
+    }
+    .p2 span{
+        padding-right: 5px;
+    }
+    .p3 {
+        font-size: 15px;
+    }
+    .copy p {
+        font-size: 13px;
+        margin: 0;
+        padding: 15px 0;
+        color: #ffffff;
+    }
+
+    .newsform {
+        margin-bottom: 15px;
+    }
+    .newsform input {
+        font-size: 15px;
+        padding: 5px 30px 5px 10px;
+    }
+    .news_control::placeholder{
+        font-size: 15px;
+    }
+    .submit_icon {
+        top: 7px;
+        left: 132px;
+    }
+    .submit_icon button i{
+        font-size: 15px;
+    }
+    .check_box {
+        margin-bottom: 0;
+    }
+    .check_box label {
+        font-size: 15px;
+    }
+    /* footer section end */
 
  }
 
@@ -965,7 +1400,7 @@ font-size: 18px;
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     /* common css start  */
     .sec_com_pd{
-        padding: 100px 0 0px;
+        padding: 100px 0 100px;
     }
     /* common css end */
     /* top header start  */
@@ -1017,6 +1452,9 @@ font-size: 18px;
     }
     /* hero slider end */
     /* speshal menu section start  */
+    .slick_slider{
+        padding-bottom: 0 !important;
+    }
    .price_stiker{
         top: 165px;
       
@@ -1029,6 +1467,9 @@ font-size: 18px;
 }
     /* speshal menu section end */
     /* offer section start  */
+    .offer{
+        padding:0 !important;
+    }
     .offer_img .img1 {
         left: 130px;
         top: 215px;
@@ -1091,6 +1532,41 @@ font-size: 18px;
         color: #fff;
     }
     /* book section end */
+    /* client review start  */
+    .cus_slider {
+        min-height: 620px;
+    }
+    .cus_slider h2 {
+        font-size: 30px;
+        padding: 0px 30px;
+    }
+    /* client review end */
+    /* mit our chefs start  */
+    .chefs_img {
+        width: 250px;
+        height: 250px;
+    }
+    .chefs_box {
+        width: 300px;
+        height: 300px;
+    }
+    .chefs_info h2 {
+        font-size: 30px;
+    }
+    /* mit our chefs end */
+    /* counter me section start  */
+    .count_info p {
+        letter-spacing: 0px;
+    }
+    /* counter me section end */
+    /* footer section start  */
+    .socail_icon li {
+        padding: 0 10px;
+    }
+    .submit_icon {
+        left: 190px;
+    }
+    /* footer section end */
  }
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px){ 
@@ -1143,5 +1619,10 @@ font-size: 18px;
         left: 460px;
     }
     /* book table section end */
+    /* footer section start  */
+    .submit_icon {
+        left: 275px;
+    }
+    /* footer section end */
 
 }
