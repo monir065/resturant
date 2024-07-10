@@ -13,7 +13,6 @@ AOS.init({
   duration: 1200
 });
 // aos 
-
 // jQ ui start
 // slick slider start
 $(document).ready(function(){
@@ -22,7 +21,7 @@ $(document).ready(function(){
         lazyLode: 'ondemand',
         slidesToShow: 3,
         slideToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         speed: 2000, 
         prevArrow: false,
@@ -33,27 +32,18 @@ $(document).ready(function(){
         settings: {
           slidesToShow: 3,
           infinite: true,
-          // dots: false,
-          // prevArrow: false,
-          // nextArrow: false,
          }
        },
        {
         breakpoint: 767,
         settings: {
           slidesToShow: 2,
-          // dots: true,
-          // prevArrow: false,
-          // nextArrow: false,
          }
        },{
     
         breakpoint: 575,
         settings:{
           slidesToShow: 1,
-          // dots: true,
-          // prevArrow: false,
-          // nextArrow: false,
         } 
       }
      ]
@@ -63,10 +53,16 @@ $(document).ready(function(){
 // food gallary start
 $(document).ready(function(){
   $('.lite').venobox({
-
   });        
-
 }); 
-// food gallary end
+// food gallery end
 
+// counter me section start
+$(document).ready(function(){
+  $("#count_item1").countMe(10, 10);
+  $("#count_item2").countMe(10, 10);
+  $("#count_item3").countMe(10, 10);       
+  $("#count_item4").countMe(10, 10);       
+  }); 
+// counter me section end
 // jQ ui end
