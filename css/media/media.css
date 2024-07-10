@@ -500,8 +500,7 @@
     font-size: 13px;
 }
 .submit_icon {
-    top: 3px;
-    left: 140px;
+    position: static;
 }
 .submit_icon button i{
     font-size: 13px;
